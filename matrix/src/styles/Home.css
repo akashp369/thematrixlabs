@@ -1,0 +1,5 @@
+.home_container{
+    background-image: url("../asset/Rectangle.png");
+    background-size: cover;
+    background-position: center center;
+}

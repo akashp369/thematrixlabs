@@ -1,0 +1,9 @@
+.token{
+    margin-top: 1.5rem;
+}
+.token h5{
+    text-align: start;
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 500;
+}

@@ -1,0 +1,37 @@
+.detailcomp{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.detailcomp>div{
+    padding: 1.6rem;
+    background-color: #390554;
+    border-radius: 9px;
+}
+.detailcomp>div>h4{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: start;
+    margin-bottom: 0.5rem;
+}
+.detailcomp>div>div{
+    display: flex;
+    gap: 1rem;
+}
+.detailcomp>div>div>div>h5{
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin: 0.2rem 0;
+    /* margin-right: 1rem; */
+}
+.detailcomp>div>div>div>p{
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin: 0.2rem 0;
+    /* margin-left: 1rem; */
+    color: #ffffff;
+    text-align: start;
+}

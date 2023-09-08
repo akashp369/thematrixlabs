@@ -1,0 +1,20 @@
+@media (max-width: 479px) {
+    .sideBar_main{
+        display: none;
+    }    
+    .home_container{
+        width: 110%;
+    }
+    .detailcomp{
+        margin-right: 0;
+    }
+}
+@media (min-width: 480px) and (max-width: 1024px) {
+    /* Your CSS styles for tablets here */
+    .sideBar_main{
+        display: none;
+    }
+    .home_container{
+        width: 100%;
+    } 
+  }
